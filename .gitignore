@@ -6,3 +6,4 @@
 /**/[Tt]emp
 *.csproj
 *.sln
+*.vsconfig
