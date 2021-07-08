@@ -1,0 +1,8 @@
+/**/.vs
+/**/[Bb]uild*
+/**/[Ll]ibrary
+/**/[Ll]og
+/**/[Ll]ogs
+/**/[Tt]emp
+*.csproj
+*.sln
