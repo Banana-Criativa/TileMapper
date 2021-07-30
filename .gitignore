@@ -4,6 +4,7 @@
 /**/[Ll]og
 /**/[Ll]ogs
 /**/[Tt]emp
+/**/[Oo]bj
 *.csproj
 *.sln
 *.vsconfig
