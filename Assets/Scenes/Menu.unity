@@ -1356,7 +1356,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b3e181ddead0a44bdefa75d0cab14f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speedScrl: 50
+  speedMvmt: 10
 --- !u!81 &656472355
 AudioListener:
   m_ObjectHideFlags: 0
