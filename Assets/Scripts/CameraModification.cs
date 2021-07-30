@@ -6,7 +6,7 @@ using UnityEngine;
 public class CameraModification : MonoBehaviour
 {
     private Camera cam;
-    public float speed;
+    public float speedScrl, speedMvmt;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +18,11 @@ public class CameraModification : MonoBehaviour
     void Update()
     {
         float ax = Input.GetAxis("Mouse ScrollWheel");
-        cam.orthographicSize += ax * speed * Time.deltaTime;
+        cam.orthographicSize += ax * speedScrl * Time.deltaTime;
+        if (Input.GetMouseButton(2))
+        {
+            Vector3 mouseDelta = new Vector3(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"), 0);
+            cam.transform.position += mouseDelta * speedMvmt * Time.deltaTime;
+        }
     }
 }
