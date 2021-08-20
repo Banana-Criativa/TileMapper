@@ -328,10 +328,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8c8e9935e856564ea9194d6f7396a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  frequency1: 0
+  frequency2: 0
   offset: 0
-  cutOff_On: 800
-  cutOff_Off: 100
-  engineOn: 0
+  sampleRate: 44100
+  waveLengthInSeconds: 2
+  modes: 25
 --- !u!82 &1101708344
 AudioSource:
   m_ObjectHideFlags: 0
